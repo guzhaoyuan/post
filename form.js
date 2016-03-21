@@ -7,9 +7,6 @@ var cookie;//保存cookie
 request({
   url:'your url',
   method:'POST',
-  headers:{
-    ContentType:'application/x-www-form-urlencoded'
-  },
   form:{
     login:'your username',
     password:'your password'
